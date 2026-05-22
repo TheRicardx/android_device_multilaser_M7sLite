@@ -1,4 +1,4 @@
-# Android device tree for Multilaser M7sLite (ML-SO06-M7sLite)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/afe616f1-58d1-40f9-9ee3-16f6572bf765" /># Android device tree for Multilaser M7sLite (ML-SO06-M7sLite)
 
 
 This repository contains the Team Win Recovery Project (TWRP) device tree for the **Multilaser M7s Lite (Model NB296)**. This configuration was built using engineering reverse-methods on the stock recovery ramdisk and kernel parameters.
@@ -54,6 +54,7 @@ mkdir -p device/multilaser/ML-SO06-M7sLite
 
 # Clone this repository into the workspace
 git clone https://github.com device/multilaser/ML-SO06-M7sLite
+
 ```
 
 ### 3. Execution and Compilation Commands
