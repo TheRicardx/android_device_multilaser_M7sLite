@@ -53,7 +53,7 @@ After syncing the manifest, you must clone this specific repository into your wo
 mkdir -p device/multilaser/ML-SO06-M7sLite
 
 # Clone this repository into the workspace
-git clone https://github.com device/multilaser/ML-SO06-M7sLite
+git clone https://github.com/TheRicardx/android_device_multilaser_M7sLite/tree/main
 
 ```
 
