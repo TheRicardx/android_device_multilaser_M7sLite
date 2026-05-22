@@ -1,0 +1,21 @@
+name: Compilar TWRP Multilaser A50
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+    - name: Checkout Código
+      uses: actions/checkout@v4
+
+    - name: Compilar com o Construtor Atualizado
+      uses: monwclear/twrp-builder-action@main
+      with:
+        recipe: 'twrp-9.0'
+        device_tree: 'https://github.com'
+        device_branch: 'main'
+        device_path: 'device/multilaser/ML-SO06-M7sLite'
+        device_name: 'ML-SO06-M7sLite'
+        make_target: 'bootimage'
