@@ -79,3 +79,5 @@ TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
+BUILD_BROKEN_DUP_RULES := true
+TARGET_PREBUILT_KERNEL := device/multilaser/ML-SO06-M7sLite/prebuilt/kernel
