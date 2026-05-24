@@ -15,7 +15,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/multilaser/ML-SO06-M7sLite/device.mk)
 
 PRODUCT_DEVICE := ML-SO06-M7sLite
-PRODUCT_NAME := omni_ML-SO06-M7sLite
+PRODUCT_NAME := omni_ML_SO06_M7sLite
 PRODUCT_BRAND := Multilaser
 PRODUCT_MODEL := M7sLite
 PRODUCT_MANUFACTURER := multilaser
